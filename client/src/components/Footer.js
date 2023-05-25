@@ -8,6 +8,7 @@ const Footer = ({ children }) => {
             padding: '100px',
         }}>
             <span>Copyright 2023</span>
+            <br />
             <span>Created by : Chelsea Pederson & Chris Lee</span>
             {children}
         </div>
