@@ -3,7 +3,7 @@ import React from 'react';
 function Resume(props) {
     return (
         <div>
-            <h2>THis is Resume</h2>
+             <a href="https://www.amazon.com/" style={{fontSize: 40}}>Visit Amazon</a>
         </div>
     );
 }
