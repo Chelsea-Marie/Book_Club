@@ -1,15 +1,17 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
-function Header({setCurrentPage}) {
+function Header({ setCurrentPage }) {
     return (
         <div>
             <header>
+            <Image src="https://www.busey.com/assets/files/NqzglPEY/Free%20Little%20Library%20Hero%20Image%20(003).jpg" fluid />
                 <Navbar bg="dark" variant="dark">
                     <Container>
-                        <Navbar.Brand href="#Home">Navbar</Navbar.Brand>
+                        <Navbar.Brand class="text-warning">Turn or Burn</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link href="#" onClick={() => { setCurrentPage("Home") }}>Home</Nav.Link>
                             <Nav.Link href="#" onClick={() => { setCurrentPage("About") }}>About the book</Nav.Link>

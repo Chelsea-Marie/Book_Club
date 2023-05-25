@@ -5,7 +5,7 @@ function Hate(props) {
     return (
         <div>
             <Card border="warning" style={{  }}>
-                <Card.Header>Header</Card.Header>
+                <Card.Header>Username</Card.Header>
                 <Card.Body>
                     <Card.Title>Warning Card Title</Card.Title>
                     <Card.Text>
